@@ -1,0 +1,312 @@
+/* Utilities */
+.container{
+    position: relative;
+    max-width: 1100px;
+    margin:0 auto;
+    overflow: hidden;
+    padding: 40px;
+    z-index: 100; /* It makes the REQUEST DEMO at front */
+    
+
+}
+
+
+
+
+.lead {
+    font:16px;
+}
+
+
+
+
+.xl{
+    font-size: 50px;
+}
+
+/* This is for margin padding inside the REQUEST DEMO Box */
+.showcase-form .form-control{
+    margin: 30px 0;
+
+}
+.showcase-form input[type='text'],
+.showcase-form input[type='email']
+{
+    border:2;
+    border-bottom:1 px solid black;
+    width:100%;
+    
+    padding: 3px;
+    overflow: hidden;
+
+}
+
+.showcase-form input:focus{
+    outline: none ;
+}
+
+.showcase::before, 
+.showcase::after {
+
+    content: "";
+    position: absolute;
+    height: 100px;
+    bottom: -62px;
+    right:0;
+    left:0;
+    background:#00BD9D;
+    transform: skewY(-0.3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+
+
+}
+
+
+.card{
+    background-color:#fff;
+    color:#333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding:20px; 
+    margin:5px;
+    overflow: hidden;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background:var(--primary-color);
+    color:white ;
+    border:none;
+    border-radius: 7px;
+}
+
+.btn-outline{
+    background-color: #233D4D;
+    border: 11px white;
+
+
+}
+
+.btn:hover{
+    transform: scale(0.95)  ;
+}
+
+/* Background and color buttons */
+
+.bg-primary, .btn-primary{
+    background-color: var(--primary-color);
+    color:#fff;
+}
+
+
+.bg-secondary, .btn-secondary{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-dark, .btn-dark{
+    background-color: #233D4D;
+    color: white
+}
+
+
+.bg-light, .btn-light{
+    background-color: var(--light-color);
+    color:rgb(3, 0, 0);
+}
+
+
+.bg-secondary a, 
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a,.bg-primary a, 
+.btn-primary a{
+    color: #fff;;
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--primary-color);
+    
+}
+
+
+.text-secondary{
+    color: var(--secondary-color);
+   
+}
+
+.text-dark{
+    color: #233D4D;
+   
+}
+
+
+.text-light{
+    color: var(--light-color);
+    
+}
+
+
+
+
+/* Text Sizes */
+
+.lead{
+    font-size: 20px;
+
+}
+
+.sm {
+    font-size: 1 rem;
+
+}
+
+.md{
+    font-size: 2 rem;
+}
+
+.lg{
+    font-size: 3 rem;
+
+}
+
+.xl{
+    font-size: 4 rem;
+
+}
+
+.lead{
+    
+    font-size: 16px;
+}
+
+
+
+.lg{
+    color: white;
+}
+  
+
+.text-center{
+    text-align: center;
+    
+}
+
+/*  Alert ( The INFO Icon on   page ) */
+
+.alert{
+    background-color: var(--light-color--);
+    padding: 10px 20px;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.alert i {
+    margin-right:10px;
+
+}
+
+.alert-success{
+    background-color:var(--success-color);
+    font-size: 14px;
+    color:#fff;
+}
+
+.alert-error{
+    background-color:var(--error-color);
+    font-size: 14px;
+    color:#fff;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* this grid is for the whole GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    /* gap is used to create a GAP between two of the grids */
+    justify-content: center;
+    align-items: center;
+    height:120%;
+    overflow: hidden;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3,1fr)
+}
+
+/* Margin */
+
+.my-1{
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+.m-1{
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 1.5rem;
+}
+
+.m-3 {
+    margin: 2rem;
+}
+
+.m-4 {
+    margin: 3rem;
+}
+
+.m-5 {
+    margin: 4rem;
+}
+
+                                 /* Padding */
+
+.p-1{
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.5rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 3rem;
+}
+
+.p-5 {
+    padding: 4rem;
+}
+
